@@ -25,6 +25,8 @@ jobs:
         run: poetry install -E docs
 
       - name: Build documentation.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p docs
           touch docs/.nojekyll
