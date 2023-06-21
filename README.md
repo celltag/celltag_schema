@@ -28,3 +28,9 @@ Use the `make` command to generate project artefacts:
 
 This project was made with
 [linkml-project-cookiecutter](https://github.com/linkml/linkml-project-cookiecutter).
+
+## Acknowledgments
+
+We would like to acknowledge the support and contributions of the [Cell Annotation Platform (CAP)](https://celltype.info/) 
+and the [Schmidt Foundation](https://tsffoundation.org/). Their  support has been invaluable  in the development of 
+this  project.
